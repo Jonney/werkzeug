@@ -1355,7 +1355,7 @@ class FloatConverter(NumberConverter):
         The ``signed`` parameter.
     """
 
-    regex = r"\d+\.\d+"
+    regex = r"\d+(\.\d+)?"
     num_convert = float
 
     def __init__(
